@@ -1,0 +1,24 @@
+.weather {
+    font-size: $font-size-large;
+    font-weight: 300;
+    font-family: $Quicksand;
+}
+.weather-tempChange {
+    display: flex;
+    flex-direction: row;
+}
+
+.tempChange {
+    margin: 0 .2rem;
+}
+.f {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.c {
+    &:hover {
+        cursor: pointer;
+    }
+}

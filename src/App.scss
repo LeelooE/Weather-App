@@ -1,0 +1,14 @@
+@import './styles/settings';
+@import './styles/form';
+@import './styles/titles';
+@import './styles/weather';
+@import './styles/container';
+@import './styles/icon';
+@import './styles/buttons';
+@import './styles/spinner';
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

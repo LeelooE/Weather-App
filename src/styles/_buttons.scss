@@ -1,0 +1,15 @@
+
+.button {
+    font-family: $Quicksand;
+    padding: $s-size;
+    font-size: $font-size-large;
+    font-weight: bold;
+    border: none;
+    background-color: $button;
+    //border-bottom: .6rem solid darken($grey, 10%);
+    &:hover{
+        transition: box-shadow .5s ease;
+        box-shadow: .5rem .5rem 5px $grey;
+    }
+
+}
